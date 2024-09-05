@@ -1,0 +1,93 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('gym-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h2{
+    text-align: center;
+    margin-top: 125px;
+}
+
+.hero p{
+    margin-top: 18px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733; /* Orange color */
+    color: #fff;
+    margin-top: 19px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 192px;
+    text-align: center;
+}
+
+.classes {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.classes ul {
+    list-style-type: none;
+}
+
+.classes ul li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+

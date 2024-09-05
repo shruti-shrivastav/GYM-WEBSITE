@@ -1,0 +1,4 @@
+transpose-changing the display of the value from vertical to horizontal
+ctrl+ALT+v (paste special).
+mergng 2 cells
+problems with layouts

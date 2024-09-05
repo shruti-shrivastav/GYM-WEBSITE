@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagesstyles.css">
+    <title>Gym 360</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        gap: 20px; 
+        justify-content: center; 
+    }
+
+    .grid-item img {
+      margin-top: 50px;
+      align-items: center;
+        width: 280px; 
+        height: 400px; 
+       justify-content: space-evenly;
+       border-radius: 18px;
+        transition: transform 0.2s; 
+        box-shadow: 0px 10px 10px black;
+    }
+
+ 
+
+    .heading {
+      margin-top: 60px;
+        text-align: center; 
+        text-transform: uppercase;
+        font-family: 'Kanit', sans-serif;
+        grid-column: span 5; 
+    }
+
+    .heading:hover{
+      color: blue;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gym 360</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="newimages.html">Gallery</a></li>
+                <li><a href="newcontact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h1 class="heading">Our Gym in Pictures</h1>
+<section>
+    <div class="grid-container">
+        <div class="grid-item">
+          <img src="gym-image1.jpg" alt="Image 1">
+        </div>
+        <div class="grid-item">
+          <img src="gym-image2.jpg" alt="Image 2">
+        </div>
+        <div class="grid-item">
+          <img src="gym-image3.jpg" alt="Image 3">
+        </div>
+        <div class="grid-item">
+          <img src="gym-image4.jpg" alt="Image 4">
+        </div>
+        <div class="grid-item">
+          <img src="gym-image5.jpg" alt="Image 5">
+        </div>
+      </div>
+</section>
+</body>
+</html>
